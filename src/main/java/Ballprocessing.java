@@ -27,7 +27,7 @@ public class Ballprocessing extends PApplet
 
         public void drawballs()
         {
-            ellipse(x,y,diameter,diameter); // to draw a speed
+            ellipse(x,y,diameter,diameter); // to draw a ball
             x+=speed;                       // update ball x coordinate wrt it's speed
         }
     }
